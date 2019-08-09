@@ -1,0 +1,9 @@
+CREATE TABLE CLAIM(
+clm_id BIGINT(20) NOT NULL AUTO_INCREMENT,
+clm_no VARCHAR(15),
+clm_type_cd VARCHAR(15),
+clm_date DATE,
+
+PRIMARY KEY (clm_id)
+
+)
